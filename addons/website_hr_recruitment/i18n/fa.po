@@ -3,16 +3,16 @@
 # * website_hr_recruitment
 # 
 # Translators:
-# Sahar Daraye <sahar.daraye.1369@gmail.com>, 2017
-# Martin Trigaux, 2017
-# Hamid Darabi, 2017
+# Martin Trigaux, 2018
+# Hamid Darabi, 2018
+# Sahar Daraye <sahar.daraye.1369@gmail.com>, 2018
 # Hamed Mohammadi <hamed@dehongi.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-20 09:54+0000\n"
-"PO-Revision-Date: 2017-09-20 09:54+0000\n"
+"POT-Creation-Date: 2018-08-24 09:05+0000\n"
+"PO-Revision-Date: 2018-08-24 09:05+0000\n"
 "Last-Translator: Hamed Mohammadi <hamed@dehongi.com>, 2018\n"
 "Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
@@ -27,19 +27,9 @@ msgid "$15k"
 msgstr "$15k"
 
 #. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.s_hr_rating_options
-msgid "1/5"
-msgstr "1/5"
-
-#. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "10  / 40 people"
 msgstr "10  / 40 فرد"
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.s_hr_rating_options
-msgid "2/5"
-msgstr "2/5"
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
@@ -47,58 +37,69 @@ msgid "3 months"
 msgstr "3 ماه"
 
 #. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.s_hr_rating_options
-msgid "3/5"
-msgstr "3/5"
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.s_hr_rating_options
-msgid "4/5"
-msgstr "4/5"
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.s_hr_rating_options
-msgid "5/5"
-msgstr "5/5"
-
-#. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "50% YoY"
 msgstr "50% YoY"
 
 #. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.s_hr_rating_options
-msgid "<i class=\"fa fa-bolt\"/> Bolts"
-msgstr "<i class=\"fa fa-bolt\"/> پیچ و مهره"
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.s_hr_rating_options
-msgid "<i class=\"fa fa-heart\"/> Hearts"
-msgstr "<i class=\"fa fa-heart\"/> قلبها"
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.s_hr_rating_options
-msgid "<i class=\"fa fa-star\"/> Stars"
-msgstr "<i class=\"fa fa-star\"/> ستاره‌ها"
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.s_hr_rating_options
-msgid "<i class=\"fa fa-tasks\"/> Bar"
-msgstr "<i class=\"fa fa-tasks\"/> میله"
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.apply
+#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid ""
-"<span class=\"btn btn-primary btn-lg o_website_form_send\">Submit</span>\n"
-"                                <span id=\"o_website_form_result\"/>"
+"<span class=\"fa fa-2x fa-calendar\"/>\n"
+"                    Sponsored Events"
 msgstr ""
-"<span class=\"btn btn-primary btn-lg o_website_form_send\">ارسال</span>\n"
-"                                <span id=\"o_website_form_result\"/>"
 
 #. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou
-#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_page_ir_ui_view
-#: model:website.page,arch_db:website_hr_recruitment.thankyou_page
+#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
+msgid ""
+"<span class=\"fa fa-2x fa-car\"/>\n"
+"                    Save on commute"
+msgstr ""
+
+#. module: website_hr_recruitment
+#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
+msgid ""
+"<span class=\"fa fa-2x fa-check-circle\"/>\n"
+"                    Discount Programs"
+msgstr ""
+
+#. module: website_hr_recruitment
+#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
+msgid ""
+"<span class=\"fa fa-2x fa-coffee\"/>\n"
+"                    Eat &amp; Drink"
+msgstr ""
+
+#. module: website_hr_recruitment
+#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
+msgid ""
+"<span class=\"fa fa-2x fa-futbol-o\"/>\n"
+"                    Sport Activity"
+msgstr ""
+
+#. module: website_hr_recruitment
+#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
+msgid ""
+"<span class=\"fa fa-2x fa-heart\"/>\n"
+"                    Benefits"
+msgstr ""
+
+#. module: website_hr_recruitment
+#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
+msgid ""
+"<span class=\"fa fa-2x fa-map-marker\"/>\n"
+"                    Prime location"
+msgstr ""
+
+#. module: website_hr_recruitment
+#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
+msgid ""
+"<span class=\"fa fa-2x fa-sun-o\"/>\n"
+"                    PTOs"
+msgstr ""
+
+#. module: website_hr_recruitment
+#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_ir_ui_view
+#: model:website.page,arch_db:website_hr_recruitment.thankyou
 msgid ""
 "<span>\n"
 "                                            We usually reply between one and three days.<br/>\n"
@@ -168,11 +169,6 @@ msgstr "اندازه متوسط قرارداد:"
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
-msgid "Benefits"
-msgstr "مزایا:"
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid ""
 "Brand-name product and services in categories like travel, electronics, "
 "health, fitness, cellular, and more"
@@ -189,9 +185,8 @@ msgid "Company Maturity:"
 msgstr ""
 
 #. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou
-#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_page_ir_ui_view
-#: model:website.page,arch_db:website_hr_recruitment.thankyou_page
+#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_ir_ui_view
+#: model:website.page,arch_db:website_hr_recruitment.thankyou
 msgid "Congratulations!"
 msgstr "تبریک!"
 
@@ -201,9 +196,8 @@ msgid "Contact us"
 msgstr "تماس با ما"
 
 #. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou
-#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_page_ir_ui_view
-#: model:website.page,arch_db:website_hr_recruitment.thankyou_page
+#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_ir_ui_view
+#: model:website.page,arch_db:website_hr_recruitment.thankyou
 msgid "Continue To Our Website"
 msgstr "ادامه در وبسایت ما"
 
@@ -219,16 +213,6 @@ msgid ""
 "Direct coordination with functional consultants for qualification and follow"
 " ups"
 msgstr ""
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
-msgid "Discount Programs"
-msgstr "برنامه‌های تخفیف"
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
-msgid "Eat &amp; Drink"
-msgstr "خوردن &amp;  آشامیدن"
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
@@ -248,10 +232,14 @@ msgid "High commissions for good performers"
 msgstr "کمیسیون بالا برای عملکرد خوب"
 
 #. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou
-#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_page_ir_ui_view
-#: model:website.page,arch_db:website_hr_recruitment.thankyou_page
+#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_ir_ui_view
+#: model:website.page,arch_db:website_hr_recruitment.thankyou
 msgid "In the meantime,"
+msgstr ""
+
+#. module: website_hr_recruitment
+#: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_job__is_published
+msgid "Is published"
 msgstr ""
 
 #. module: website_hr_recruitment
@@ -276,19 +264,17 @@ msgstr "موقعیت شغلی"
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
-#: model:ir.ui.view,arch_db:website_hr_recruitment.s_hr_rating
 msgid "Job Security:"
 msgstr "امنیت کار:"
 
 #. module: website_hr_recruitment
-#: code:addons/website_hr_recruitment/controllers/main.py:72
+#: code:addons/website_hr_recruitment/controllers/main.py:77
 #, python-format
 msgid "Job Title"
 msgstr "عنوان شغل"
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.detail
-#: model:ir.ui.view,arch_db:website_hr_recruitment.job_footer_custom
 #: model:website.menu,name:website_hr_recruitment.menu_jobs
 msgid "Jobs"
 msgstr "شغل"
@@ -313,9 +299,8 @@ msgid ""
 msgstr ""
 
 #. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou
-#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_page_ir_ui_view
-#: model:website.page,arch_db:website_hr_recruitment.thankyou_page
+#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_ir_ui_view
+#: model:website.page,arch_db:website_hr_recruitment.thankyou
 msgid "Look around on our website:"
 msgstr "دوری در وبسایت ما بزن:"
 
@@ -353,11 +338,6 @@ msgstr ""
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
-msgid "PTOs"
-msgstr ""
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Peet's and Philz coffee provided all day to order and pantry snacks"
 msgstr ""
 
@@ -378,23 +358,13 @@ msgstr ""
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
-msgid "Prime location"
-msgstr ""
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Profitable"
 msgstr ""
 
 #. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.s_hr_rating_options
-msgid "Rating type"
-msgstr "نوع رتبه بندی"
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.s_hr_rating_options
-msgid "Rating value"
-msgstr "ارزش رتبه بندی"
+#: model:ir.model.fields,help:website_hr_recruitment.field_hr_job__website_id
+msgid "Restrict publishing to this website."
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.apply
@@ -405,11 +375,6 @@ msgstr "ازسرگیری"
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Sales Cycle:"
 msgstr "سیکل فروش:"
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
-msgid "Save on commute"
-msgstr ""
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.apply
@@ -432,14 +397,9 @@ msgid "Source of Applicants"
 msgstr "منبع متقاضی"
 
 #. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
-msgid "Sponsored Events"
-msgstr "رویدادهای پشتیبانی شده"
-
-#. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
-msgid "Sport Activity"
-msgstr "فعالیت ورزشی"
+#: model:ir.ui.view,arch_db:website_hr_recruitment.apply
+msgid "Submit"
+msgstr "ارسال"
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
@@ -457,6 +417,11 @@ msgid "The founder’s story"
 msgstr "داستان بنیان گذار"
 
 #. module: website_hr_recruitment
+#: model:ir.model.fields,help:website_hr_recruitment.field_hr_job__website_url
+msgid "The full URL to access the document through the website."
+msgstr ""
+
+#. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid ""
 "Tuesday Dinners, Monthly Lunch Mixers, Monthly Happy Hour, Annual day event"
@@ -468,7 +433,7 @@ msgid "US + Canada Territory"
 msgstr "محدوده آمریکا و کانادا"
 
 #. module: website_hr_recruitment
-#: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_recruitment_source_url
+#: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_recruitment_source__url
 msgid "Url Parameters"
 msgstr ""
 
@@ -483,14 +448,54 @@ msgid "Variability of the Job:"
 msgstr ""
 
 #. module: website_hr_recruitment
+#: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_job__website_published
+msgid "Visible on current website"
+msgstr ""
+
+#. module: website_hr_recruitment
+#: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_job__website_id
+msgid "Website"
+msgstr "تارنما"
+
+#. module: website_hr_recruitment
+#: model:ir.ui.view,arch_db:website_hr_recruitment.hr_job_website_inherit
+msgid "Website Editor"
+msgstr ""
+
+#. module: website_hr_recruitment
 #: model:ir.actions.act_url,name:website_hr_recruitment.action_open_website
 msgid "Website Recruitment Form"
 msgstr "فرم استخدام وبسایت"
 
 #. module: website_hr_recruitment
-#: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_job_website_description
+#: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_job__website_url
+msgid "Website URL"
+msgstr "URL وبسایت"
+
+#. module: website_hr_recruitment
+#: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_job__website_description
 msgid "Website description"
 msgstr "توضیحات وبسایت"
+
+#. module: website_hr_recruitment
+#: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_job__website_meta_description
+msgid "Website meta description"
+msgstr "توضیحات متا وبسایت"
+
+#. module: website_hr_recruitment
+#: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_job__website_meta_keywords
+msgid "Website meta keywords"
+msgstr "کلیدواژه‌های متا وبسایت"
+
+#. module: website_hr_recruitment
+#: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_job__website_meta_title
+msgid "Website meta title"
+msgstr "عنوان متا وبسایت"
+
+#. module: website_hr_recruitment
+#: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_job__website_meta_og_img
+msgid "Website opengraph image"
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
@@ -520,16 +525,14 @@ msgid "Your Phone Number"
 msgstr "شماره تلفن شما"
 
 #. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou
-#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_page_ir_ui_view
-#: model:website.page,arch_db:website_hr_recruitment.thankyou_page
+#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_ir_ui_view
+#: model:website.page,arch_db:website_hr_recruitment.thankyou
 msgid "Your application has been posted successfully."
 msgstr "درخواست شما با موفقیت ارسال شد."
 
 #. module: website_hr_recruitment
-#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou
-#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_page_ir_ui_view
-#: model:website.page,arch_db:website_hr_recruitment.thankyou_page
+#: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_ir_ui_view
+#: model:website.page,arch_db:website_hr_recruitment.thankyou
 msgid "Your application has been sent to:"
 msgstr "درخواست شما ارسال شد بهک"
 

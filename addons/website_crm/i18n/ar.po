@@ -3,21 +3,21 @@
 # * website_crm
 # 
 # Translators:
-# Mustafa Rawi <mustafa@cubexco.com>, 2017
-# Akram Alfusayal <akram_ma@hotmail.com>, 2017
-# Martin Trigaux, 2017
-# amrnegm <amrnegm.01@gmail.com>, 2017
-# hoxhe Aits <hoxhe0@gmail.com>, 2017
-# Shaima Safar <shaima.safar@open-inside.com>, 2017
-# Mohammed Albasha <m.albasha.ma@gmail.com>, 2017
-# Walid Baruni <baruni@osoul.ly>, 2018
+# Mustafa Rawi <mustafa@cubexco.com>, 2018
+# Akram Alfusayal <akram_ma@hotmail.com>, 2018
+# amrnegm <amrnegm.01@gmail.com>, 2018
+# Martin Trigaux, 2018
+# hoxhe Aits <hoxhe0@gmail.com>, 2018
+# Osoul <baruni@osoul.ly>, 2018
+# Mohammed Albasha <m.albasha.ma@gmail.com>, 2018
+# Shaima Safar <shaima.safar@open-inside.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-20 09:53+0000\n"
-"PO-Revision-Date: 2017-09-20 09:53+0000\n"
-"Last-Translator: Walid Baruni <baruni@osoul.ly>, 2018\n"
+"POT-Creation-Date: 2018-08-24 09:04+0000\n"
+"PO-Revision-Date: 2018-08-24 09:04+0000\n"
+"Last-Translator: Shaima Safar <shaima.safar@open-inside.com>, 2018\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,13 +30,6 @@ msgstr ""
 #: model:website.page,arch_db:website_crm.contactus_thanks
 msgid "&amp;times;"
 msgstr "&amp;times;"
-
-#. module: website_crm
-#: model:ir.ui.view,arch_db:website_crm.contactus_form
-msgid ""
-"<span class=\"btn btn-primary btn-lg o_website_form_send\">Send</span>\n"
-"                                <span id=\"o_website_form_result\"/>"
-msgstr ""
 
 #. module: website_crm
 #: model:ir.ui.view,arch_db:website_crm.res_config_settings_view_form
@@ -59,31 +52,30 @@ msgid "Contact Us"
 msgstr "اتصل بنا"
 
 #. module: website_crm
-#: model:ir.model.fields,field_description:website_crm.field_res_config_settings_crm_default_team_id
-msgid "Default Sales Channel"
+#: model:ir.model.fields,field_description:website_crm.field_res_config_settings__crm_default_team_id
+msgid "Default Sales Team"
+msgstr "فريق المبيعات الافتراضي"
+
+#. module: website_crm
+#: model:ir.model.fields,help:website_crm.field_res_config_settings__crm_default_team_id
+#: model:ir.model.fields,help:website_crm.field_website__crm_default_team_id
+msgid "Default Sales Team for new leads created through the Contact Us form."
 msgstr ""
 
 #. module: website_crm
-#: model:ir.model.fields,field_description:website_crm.field_website_crm_default_team_id
-msgid "Default Sales Channels"
+#: model:ir.model.fields,field_description:website_crm.field_website__crm_default_team_id
+msgid "Default Sales Teams"
 msgstr ""
 
 #. module: website_crm
-#: model:ir.model.fields,field_description:website_crm.field_res_config_settings_crm_default_user_id
-#: model:ir.model.fields,field_description:website_crm.field_website_crm_default_user_id
+#: model:ir.model.fields,field_description:website_crm.field_res_config_settings__crm_default_user_id
+#: model:ir.model.fields,field_description:website_crm.field_website__crm_default_user_id
 msgid "Default Salesperson"
 msgstr ""
 
 #. module: website_crm
-#: model:ir.model.fields,help:website_crm.field_res_config_settings_crm_default_team_id
-#: model:ir.model.fields,help:website_crm.field_website_crm_default_team_id
-msgid ""
-"Default sales channel for new leads created through the Contact Us form."
-msgstr ""
-
-#. module: website_crm
-#: model:ir.model.fields,help:website_crm.field_res_config_settings_crm_default_user_id
-#: model:ir.model.fields,help:website_crm.field_website_crm_default_user_id
+#: model:ir.model.fields,help:website_crm.field_res_config_settings__crm_default_user_id
+#: model:ir.model.fields,help:website_crm.field_website__crm_default_user_id
 msgid "Default salesperson for new leads created through the Contact Us form."
 msgstr ""
 
@@ -115,13 +107,25 @@ msgstr "رقم الهاتف"
 
 #. module: website_crm
 #: model:ir.ui.view,arch_db:website_crm.res_config_settings_view_form
-msgid "Sales Channel"
-msgstr "قنوات البيع"
+msgid ""
+"Please set a Sales Team for the website. Otherwise you can't follow related "
+"events."
+msgstr ""
+
+#. module: website_crm
+#: model:ir.ui.view,arch_db:website_crm.res_config_settings_view_form
+msgid "Sales Team"
+msgstr "فريق المبيعات"
 
 #. module: website_crm
 #: model:ir.ui.view,arch_db:website_crm.res_config_settings_view_form
 msgid "Salesperson"
-msgstr "مسئول المبيعات"
+msgstr "موظف المبيعات"
+
+#. module: website_crm
+#: model:ir.ui.view,arch_db:website_crm.contactus_form
+msgid "Send"
+msgstr "إرسال"
 
 #. module: website_crm
 #: model:ir.ui.view,arch_db:website_crm.contactus_form

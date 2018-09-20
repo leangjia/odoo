@@ -10,8 +10,13 @@ class Partner(models.Model):
 
     # NOT A REAL PROPERTY !!!!
     property_product_pricelist = fields.Many2one(
+<<<<<<< HEAD
         'product.pricelist', 'Sale Pricelist', compute='_compute_product_pricelist',
         inverse="_inverse_product_pricelist", company_dependent=False,
+=======
+        'product.pricelist', 'Pricelist', compute='_compute_product_pricelist',
+        inverse="_inverse_product_pricelist", company_dependent=False,  # NOT A REAL PROPERTY
+>>>>>>> 3117afbb7e4a4a762ff041f7797250d3b3bd9a05
         help="This pricelist will be used, instead of the default one, for sales to the current partner")
 
     @api.multi
@@ -19,7 +24,13 @@ class Partner(models.Model):
     def _compute_product_pricelist(self):
         res = self.env['product.pricelist']._get_partner_pricelist_multi(self.ids)
         for p in self:
+<<<<<<< HEAD
             p.property_product_pricelist = res.get(p.id)
+=======
+            if not isinstance(p.id, models.NewId):  # if not onchange
+                company = self.env.context.get('force_company', False)
+                p.property_product_pricelist = self.env['product.pricelist'].sudo()._get_partner_pricelist(p.id, company_id=company)
+>>>>>>> 3117afbb7e4a4a762ff041f7797250d3b3bd9a05
 
     @api.one
     def _inverse_product_pricelist(self):

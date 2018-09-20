@@ -36,8 +36,8 @@ _logger = logging.getLogger('odoo')
 def check_root_user():
     """Warn if the process's user is 'root' (on POSIX system)."""
     if os.name == 'posix':
-        import pwd
-        if pwd.getpwuid(os.getuid())[0] == 'root':
+        import getpass
+        if getpass.getuser() == 'root':
             sys.stderr.write("Running as user 'root' is a security risk.\n")
 
 def check_postgres_user():
@@ -46,7 +46,7 @@ def check_postgres_user():
     This function assumes the configuration has been initialized.
     """
     config = odoo.tools.config
-    if config['db_user'] == 'postgres':
+    if (config['db_user'] or os.environ.get('PGUSER')) == 'postgres':
         sys.stderr.write("Using the database user 'postgres' is a security risk, aborting.")
         sys.exit(1)
 

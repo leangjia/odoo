@@ -3,14 +3,14 @@
 # * website_membership
 # 
 # Translators:
-# Michael Yeung, 2017
+# Martin Trigaux, 2018
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-20 09:54+0000\n"
-"PO-Revision-Date: 2017-09-20 09:54+0000\n"
+"POT-Creation-Date: 2018-08-24 09:05+0000\n"
+"PO-Revision-Date: 2018-08-24 09:05+0000\n"
 "Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2018\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 #. module: website_membership
 #: model:ir.ui.view,arch_db:website_membership.index
 msgid "All"
-msgstr "所有"
+msgstr "全部"
 
 #. module: website_membership
 #: code:addons/website_membership/controllers/main.py:83
@@ -34,6 +34,11 @@ msgstr "所有國家"
 #: model:ir.ui.view,arch_db:website_membership.index
 msgid "Associations"
 msgstr "協會"
+
+#. module: website_membership
+#: model:ir.ui.view,arch_db:website_membership.opt_index_google_map
+msgid "Close"
+msgstr "關閉"
 
 #. module: website_membership
 #: model:ir.ui.view,arch_db:website_membership.index
@@ -49,13 +54,13 @@ msgstr "免費會員"
 #. module: website_membership
 #: model:ir.ui.view,arch_db:website_membership.opt_index_country
 msgid "Location"
-msgstr "位置"
+msgstr "地點"
 
 #. module: website_membership
-#: model:ir.ui.view,arch_db:website_membership.footer_custom
 #: model:ir.ui.view,arch_db:website_membership.index
+#: model:website.menu,name:website_membership.menu_members
 msgid "Members"
-msgstr "成員"
+msgstr "會員"
 
 #. module: website_membership
 #: model:ir.ui.view,arch_db:website_membership.index
@@ -73,11 +78,11 @@ msgid "World Map"
 msgstr "地界地圖"
 
 #. module: website_membership
+#: model:ir.ui.view,arch_db:website_membership.index
+msgid "float-left"
+msgstr ""
+
+#. module: website_membership
 #: model:ir.model,name:website_membership.model_membership_membership_line
 msgid "membership.membership_line"
 msgstr "membership.membership_line"
-
-#. module: website_membership
-#: model:ir.ui.view,arch_db:website_membership.index
-msgid "pull-left"
-msgstr "左拉"
